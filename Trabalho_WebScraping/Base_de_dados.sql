@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS imobiliaria;
+
+
 USE imobiliaria;
 
 SELECT * FROM imoveis ORDER BY data_coleta DESC;
